@@ -1,0 +1,303 @@
+/* /// NAVIGATION  /// */
+html{
+	background-color: #101010;
+}
+
+#logo{
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+
+.active{
+	background-color: #101010;
+}
+
+a{
+    cursor: pointer;
+}
+
+/* logo */
+.navbar-brand{
+    width: 100%;
+    padding-top: 7%;
+}
+
+/* menu list */
+.navbar-nav{
+    float: right;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.navbar{
+    margin-bottom: 0;
+    border: none;
+}
+/* --------------------- */
+
+
+
+/* /// HOME /// */
+.container-fluid{
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: left;
+    border-top: solid #40E0D0 0.8pc;
+    background-image: url("../images/main_container_wallpaper.jpg");
+    background-size: cover;
+}
+
+/* login form */
+.form-group{
+    margin: 0 auto;
+    max-width: 40%;
+    padding: 3%;
+    border: solid transparent 1px;
+    border-radius: 3px;
+    box-shadow: 0 1px 33px 0 #333;
+    background-color: RGBA(183, 207, 255, 0.23);
+}
+
+/* header */
+.jumbotron{
+    margin: 0 auto;
+    padding: 0;
+    color: #b0bfda;
+    text-align: center;
+    letter-spacing: 3px;
+    background-color: transparent;
+}
+
+/* form fields */
+.start-form{
+    font-size: large;
+    height: 48px;
+    margin-bottom: 0;
+    box-shadow: 0 1px 33px 0 #333;
+    border: solid #8c8c8c 0.13pc;
+    border-left: none;
+}
+
+/* form icons */
+.form-addon{
+    border: solid #8c8c8c 0.13pc;
+    box-shadow: 0 1px 33px 0 #333;
+    background-color: #b0bfda;
+    border-right: none;
+}
+/* --------------------- */
+
+
+/* /// CONTACT /// */
+.contact-container{
+     margin: 0 auto;
+     text-align: left;
+     padding-top: 3em;
+     padding-bottom: 3em;
+     background-image: url("../images/modal_background.jpg");
+     border-top: solid #40E0D0 0.8pc;
+}
+
+/* contact-box */
+.col-md-7{
+    padding: 2% 0 2% 2%;
+    margin: 2%;
+    border:solid transparent 1px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.59);
+    text-align: left;
+    word-wrap: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+}
+
+.socialNetwork{
+    margin: 2%;
+    padding: 2.5%;
+    border:solid transparent 1px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.59);
+    text-align: left;
+    word-wrap: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+}
+
+/* contact form */
+.contact-form{
+    border: solid transparent 1px;
+    border-radius: 3px;
+    box-shadow: 0 1px 33px 0 #333;
+    background-color: RGBA(183, 207, 255, 0.23);
+}
+
+.contactTextArea{
+    margin: 0 auto;
+}
+
+.contact-forms{
+    height: 38px;
+    box-shadow: 0 1px 33px 0 #333;
+    border: solid #8c8c8c 0.18pc;
+}
+
+.send-button{
+    -moz-margin-top: 34%;
+	-webkit-margin-top: 34%;
+}
+/* --------------------- */
+
+
+
+/* /// ABOUT US /// */
+.aboutContainer{
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-image: url("../images/team_wallpaper.png");
+    background-size: cover;
+    border-top: solid #40E0D0 0.8pc;
+}
+
+/* team members */
+.team-member{
+    padding: 3%;
+    margin: 0 0 4% 5%;
+    max-width: 70%;
+    border: solid transparent 1px;
+    border-radius: 3px;
+    background-color: RGBA(183, 207, 255, 0.64);
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    color: #000000;
+}
+
+/* member avatar */
+.img-circle{
+    margin: 0 auto;
+    padding: 10%;
+    border: solid #8c8c8c 1px;
+    box-shadow: 0 1px 5px 0 #333;
+}
+
+.member-header{
+    background-image: none;
+    border: none;
+    text-align: center;
+}
+
+.member-header img{
+    margin: 0 auto;
+    max-width: 30%;
+}
+
+/* member headers */
+.page-header{
+    font-size: x-large;
+    text-align: center;
+}
+
+.team-header{
+    text-align: center;
+    border: none;
+}
+/* --------------------- */
+
+/* /// MODAL LOGIN AND REGISTRATION /// */
+.modal-form-group{
+    padding: 7%;
+    min-width: 80%;
+    background-color: rgba(0, 0, 0, 0.59);
+}
+.modal-form{
+    margin: 2% 0 2% 0;
+}
+
+.close-button{
+    opacity: 0.8;
+}
+
+.modal-body{
+    background-image: url("../images/modal_background.jpg");
+    background-size: cover;
+}
+
+.modal-heading{
+    margin-bottom: 8%;
+    color: #40E0D0;
+}
+
+.popUp-header{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: solid #40E0D0 0.4pc;
+}
+
+.popUp-header-registration{
+    border-bottom: solid #40E0D0 0.4pc;
+}
+
+.popUp-footer{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-top: solid #40E0D0 0.4pc;
+}
+
+.popUp-footer-registration{
+    border-top: solid #40E0D0 0.4pc;
+}
+/* --------------------- */
+
+
+
+/* /// REGISTRATION /// */
+
+/* --------------------- */
+
+
+.label-primary{
+    background-color: transparent;
+    text-align: center;
+}
+
+/* /// BUTTONS /// */
+.torquise-button{
+    background-image: linear-gradient(to bottom,#40E0D0 0,#0a3c69 100%);
+}
+
+.pink-button{
+    border: 1px solid #ff2f62;
+    background-image: linear-gradient(to bottom, #ff2f62 0, rgb(182, 44, 82) 100%);
+}
+
+.pink-button:hover{
+    background-color: #ff2f62;
+    border: 1px solid #ff2f62;
+}
+
+.popUp-footer{
+
+}
+/* ---------------- */
+
+
+/* FOOTER */
+.home-footer{
+    text-align: center;
+    border-top: solid #40E0D0 0.8pc;
+    background-color: #101010;
+    color: rgb(255, 255, 255);
+}
+
+.login-footer{
+    border-top: none;
+}
+
+label{
+    color: white;
+    margin-top: 1%;
+}
+
+
