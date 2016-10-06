@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Modal</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/design.css">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="modal fade popUpLogin">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!--- modal header -->
+                <div class="modal-header popUp-header">
+                    <button type="button" class="close close-button" data-dismiss="modal"><img src="images/close_blue.png"></button>
+                </div>
+
+                <!--- modal body -->
+                <div class="modal-body">
+                    <form class="form-group modal-form-group" action="#" method="post">
+
+                        <!-- LOGIN HEADER -->
+                        <div class="jumbotron">
+                            <h2 class="media-heading modal-heading">Login</h2>
+                        </div>
+
+                        <div class="input-group">
+                            <span class="input-group-addon form-addon"><img src="images/user_addon.png" ></span>
+                            <input type="text" class="form-control start-form" placeholder="Username" aria-describedby="user-addon" name="userName">
+                        </div>
+
+                        <br>
+
+                        <div class="input-group">
+                            <span class="input-group-addon form-addon"><img src="images/password_addon.png"></span>
+                            <input type="password" class="form-control start-form" placeholder="Password" aria-describedby="password-addon" name="userPassword">
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <!--- modal footer -->
+                <div class="modal-footer popUp-footer ">
+                    <input  class="btn btn-primary btn-block torquise-button" type="submit" value="Login" name="loginButton">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script src="javascript/jQuery.min.js"></script>
+<script src="javascript/bootstrap.min.js"></script>
+</body>
+</html>

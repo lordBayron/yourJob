@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/design.css">
+    <script src="javascript/fileLoader.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-inverse navigation-bar">
+        <div class="coontainer-fluid">
+            <div class="navbar navbar-header">
+                <a class="navbar-brand" href="index.html"><img id="logo" src="images/yourJob_logo.png" height="35px" width="100px"></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".menu-list">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </div>
+        <!-- MENU LIST -->
+        <div class="collapse navbar-collapse menu-list">
+            <ul class="nav navbar-nav">
+                <li><a data-toggle="modal" data-target=".popUpLogin">Login</a></li>
+                <li><a data-toggle="modal" data-target=".popUpRegister">Registration</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="aboutUs.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div html_file="login_modal.html"></div>
+    <div html_file="registration_modal.html"></div>
+
+    <script>IncludeHTML();</script>
+
+    <!-- TEAM CONTAINER -->
+    <div class="container-fluid aboutContainer">
+        <!--- TEAM HEADER
+        <header class="container-fluid" id="teamHeader">
+            <img src="images/yourJob_logo.png">
+        </header>
+        --->
+
+        <div class="row">
+            <div class="col-md-3 team-member">
+                <header class="modal-header member-header">
+                    <img class="img-circle" src="images/user_addon.png">
+                </header>
+                <h1 class="page-header">Dorian Beli</h1>
+                It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout. The point of using Lorem Ipsum is
+                that it has a more-or-less normal distribution of letters, as opposed to using
+                'Content here, content here', making it look like readable English. Many desktop
+                publishing packages and web page editors now use Lorem Ipsum as their default
+                model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                their infancy. Various versions have evolved over the years, sometimes by accident,
+                sometimes on purpose (injected humour and the like).
+            </div>
+
+            <div class="col-md-3 team-member">
+                <header class="modal-header member-header">
+                    <img class="img-circle" src="images/user_addon.png">
+                </header>
+                <h1 class="page-header">Marko Vidakovic</h1>
+                It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout. The point of using Lorem Ipsum is
+                that it has a more-or-less normal distribution of letters, as opposed to using
+                'Content here, content here', making it look like readable English. Many desktop
+                publishing packages and web page editors now use Lorem Ipsum as their default
+                model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                their infancy. Various versions have evolved over the years, sometimes by accident,
+                sometimes on purpose (injected humour and the like).
+            </div>
+
+            <div class="col-md-3 team-member">
+                <header class="modal-header member-header">
+                    <img class="img-circle" src="images/user_addon.png">
+                </header>
+                <h1 class="page-header">Milan Trbojevic</h1>
+                It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout. The point of using Lorem Ipsum is
+                that it has a more-or-less normal distribution of letters, as opposed to using
+                'Content here, content here', making it look like readable English. Many desktop
+                publishing packages and web page editors now use Lorem Ipsum as their default
+                model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                their infancy. Various versions have evolved over the years, sometimes by accident,
+                sometimes on purpose (injected humour and the like).
+            </div>
+
+        </div>
+
+            <div class="row">
+
+                <div class="col-md-3 team-member">
+                    <header class="modal-header member-header">
+                        <img class="img-circle" src="images/user_addon.png">
+                    </header>
+                    <h1 class="page-header">Toni Kosuljandic</h1>
+                    It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout. The point of using Lorem Ipsum is
+                    that it has a more-or-less normal distribution of letters, as opposed to using
+                    'Content here, content here', making it look like readable English. Many desktop
+                    publishing packages and web page editors now use Lorem Ipsum as their default
+                    model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                    their infancy. Various versions have evolved over the years, sometimes by accident,
+                    sometimes on purpose (injected humour and the like).
+                </div>
+
+                <div class="col-md-3 team-member">
+                    <header class="modal-header member-header">
+                        <img class="img-circle" src="images/user_addon.png">
+                    </header>
+                    <h1 class="page-header">Matija Vidakovic</h1>
+                    It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout. The point of using Lorem Ipsum is
+                    that it has a more-or-less normal distribution of letters, as opposed to using
+                    'Content here, content here', making it look like readable English. Many desktop
+                    publishing packages and web page editors now use Lorem Ipsum as their default
+                    model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                    their infancy. Various versions have evolved over the years, sometimes by accident,
+                    sometimes on purpose (injected humour and the like).
+                </div>
+            </div>
+
+        </div>
+
+
+    <footer class="modal-footer home-footer">© YourJob 2016.</footer>
+
+
+
+
+<script src="javascript/jQuery.min.js"></script>
+<script src="javascript/bootstrap.min.js"></script>
+</body>
+</html>
