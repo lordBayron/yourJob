@@ -49,25 +49,23 @@
 
                <form class="col-md-7 contactForm" action="#" method="POST">
 
-                   <div class="col-md-4" id="contactForms">
-                       <div class="input-group">
-                           <label>Name:</label>
-                           <input class="form-control contact-forms" type="text" name="emailName"></div>
-                        <div class="input-group">
-                           <label>E-mail:</label>
-                           <input class="form-control contact-forms" type="text" name="emailContact"></div>
-                       <div class="input-group">
-                           <label>Subject:</label>
-                           <input class="form-control contact-forms" type="text" name="emailSubject"></div><br>
+                   <div class="col-md-5" id="contactForms">
+                       <div class="input-group contact-input-group">
+                           <span class="input-group-addon form-addon contact-form-addon"><img src="images/user_addon.png"></span>
+                           <input class="form-control start-form contact-forms" placeholder="Your name" type="text" name="emailName"></div>
+                        <div class="input-group contact-input-group">
+                            <span class="input-group-addon form-addon contact-form-addon"><img src="images/email_addon.png"></span>
+                           <input class="form-control start-form contact-forms" type="text" placeholder="Email address"  name="emailContact"></div>
+                       <div class="input-group contact-input-group">
+                           <span class="input-group-addon form-addon contact-form-addon"><img src="images/question_addon.png"></span>
+                           <input class="form-control start-form contact-forms" type="text" placeholder="Subject"  name="emailSubject"></div><br>
                    </div>
 
-                   <div class="col-md-8 contactTextArea">
-                       <div class="input-group">
-                           <label>Message:</label><br>
-                           <textarea class="form-control contact-forms" rows="6" cols="50"></textarea><br>
-                           <input class="btn btn-primary btn-block send-button" type="submit" value="Send E-mail"></div>
-                   </div>
-
+                   <div class="col-md-7 contactTextArea">
+                       <div class="input-group contact-input-group">
+                           <textarea placeholder="Type message here..." class="form-control contact-forms contact-textarea" rows="8.5" cols="50"></textarea><br>
+                       </div>
+                       <input class="btn btn-primary btn-block torquise-button send-button" type="submit" value="Send E-mail"></div>
                </form>
 
             <!-- SOCIAL NETWORK CONTACT -->
