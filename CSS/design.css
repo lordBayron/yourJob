@@ -44,7 +44,7 @@ a{
     padding-bottom: 3em;
     text-align: left;
     border-top: solid #40E0D0 0.8pc;
-    background-image: url("../images/main_container_wallpaper.jpg");
+    background-image: url("../images/modal_background.jpg");
     background-size: cover;
 }
 
@@ -53,10 +53,13 @@ a{
     margin: 0 auto;
     max-width: 40%;
     padding: 3%;
-    border: solid transparent 1px;
+    border: solid #40e0d0 1px;
     border-radius: 3px;
-    box-shadow: 0 1px 33px 0 #333;
-    background-color: RGBA(183, 207, 255, 0.23);
+    background-color: rgba(0, 0, 0, 0.83);
+    text-align: left;
+    word-wrap: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
 }
 
 /* header */
@@ -168,7 +171,7 @@ a{
     text-align: left;
     padding-top: 4%;
     padding-bottom: 4%;
-    background-image: url("../images/team_wallpaper.png");
+    background-image: url("../images/modal_background.jpg");
     background-size: cover;
     border-top: solid #40E0D0 0.8pc;
 }
@@ -178,14 +181,13 @@ a{
     padding: 3%;
     margin: 0 0 4% 5%;
     max-width: 70%;
-    border: solid transparent 1px;
+    border: solid #40e0d0 1px;
     border-radius: 3px;
-    background-color: RGBA(183, 207, 255, 0.64);
+    background-color: rgba(0, 0, 0, 0.83);
     text-align: left;
+    word-wrap: normal;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: lighter;
-    font-size: large;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 /* member avatar */
